@@ -1,9 +1,6 @@
 #Exercice 2, Partie 1:
 
 #Fonction calculatrice:
-from calendar import c
-
-
 def calculatrice(a, b, c, d):
     #Partie addition:
     adition = a/b + d/c
@@ -19,7 +16,6 @@ def calculatrice(a, b, c, d):
 print(calculatrice(2, 1, 8, 4))
 
 #Exercice 2, Partie 2:
-
 def calculatrice_2(fraction1, fraction2):
     #Partie addition:
     adition = fraction1 + fraction2
