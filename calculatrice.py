@@ -1,3 +1,15 @@
+#Exercice 1:
+
+#Function modulo:
+from fractions import Fraction
+
+
+def modulo(x):
+    #retourne le paramètre de x modulo 5
+    return x % 5
+#le paramètre est 51
+print(modulo(67))
+
 #Exercice 2, Partie 1:
 
 #Fonction calculatrice:
@@ -16,6 +28,8 @@ def calculatrice(a, b, c, d):
 print(calculatrice(8, 5, 76, 4))
 
 #Exercice 2, Partie 2:
+
+#Fonction calculatrice_2:
 def calculatrice_2(fraction1, fraction2):
     #Partie addition:
     adition = fraction1 + fraction2
@@ -32,6 +46,8 @@ print(calculatrice_2(2/5, 7/9))
 
 
 #Exercice 2, Partie 3:
+
+#Fonction calculatrice_3:
 def calculatrice_3(fraction1, fraction2):
     #Partie addition:
     adition = fraction1 + fraction2
@@ -43,5 +59,22 @@ def calculatrice_3(fraction1, fraction2):
     divisions = fraction1 / fraction2
     #Retoune chaque valeur des operations:
     return adition, soustraction, multiplication, divisions
-#Affriche le résultat de la function calculatrice2 en attribuent les int disiré dans les paramètres de la function:
-print(calculatrice_3(float(2/1), float(18/9)))
+#Affriche le résultat de la function calculatrice3 en attribuent les int disiré dans les paramètres de la function:
+print(calculatrice_3(Fraction(72/8), float(18/9)))
+
+
+#Exercice 3:
+
+#Fonction puissance:
+def puissance(x,y,z):
+    #Formule
+    resultat = x**y/z
+    resultat2 = x**2/z
+    resultat3 = x**y
+    #Retourne le resultat de la formule:
+    return resultat, resultat2, resultat3
+    #Retourne le resultat de la formule:
+   
+#Affiche la fonction puissance avec les valeurs désiré pour les paramètre:
+print(puissance(56, 9, 3))
+    
