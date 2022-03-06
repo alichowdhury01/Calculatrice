@@ -52,7 +52,7 @@ def calculatrice_3(fraction1, fraction2):
     #Partie addition:
     adition = fraction1 + fraction2
     #Partie soustration:
-    soustraction = fraction1 - fraction2
+    soustraction = (fraction1 - fraction2)
     #Partie multiplication:
     multiplication = fraction1 * fraction2
     #Partie division:
@@ -60,20 +60,22 @@ def calculatrice_3(fraction1, fraction2):
     #Retoune chaque valeur des operations:
     return adition, soustraction, multiplication, divisions
 #Affriche le résultat de la function calculatrice3 en attribuent les int disiré dans les paramètres de la function:
-print(calculatrice_3(Fraction(72/8), float(18/9)))
+print(calculatrice_3(float(3/4), float(67/23)))
+print(calculatrice_3(Fraction('3/4'), Fraction('67/23')))
+
 
 
 #Exercice 3:
 
 #Fonction puissance:
-def puissance(x,y,z):
+#def puissance(x,y,z):
     #Formule
-    resultat = x**y/z
-    resultat2 = x**2/z
-    resultat3 = x**y
+   # resultat = x**y/z
+    #resultat2 = x**2/z
+ #   resultat3 = x**y
     #Retourne le resultat de la formule:
-    return resultat, resultat2, resultat3
+   # return resultat, resultat2, resultat3
    
 #Affiche la fonction puissance avec les valeurs désiré pour les paramètre:
-print(puissance(56, 9, 3))
+#print(puissance(56, 9, 3))
     
