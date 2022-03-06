@@ -73,7 +73,6 @@ def puissance(x,y,z):
     resultat3 = x**y
     #Retourne le resultat de la formule:
     return resultat, resultat2, resultat3
-    #Retourne le resultat de la formule:
    
 #Affiche la fonction puissance avec les valeurs désiré pour les paramètre:
 print(puissance(56, 9, 3))
