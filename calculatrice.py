@@ -68,14 +68,10 @@ print(calculatrice_3(Fraction('3/4'), Fraction('67/23')))
 #Exercice 3:
 
 #Fonction puissance:
-#def puissance(x,y,z):
-    #Formule
-   # resultat = x**y/z
-    #resultat2 = x**2/z
- #   resultat3 = x**y
-    #Retourne le resultat de la formule:
-   # return resultat, resultat2, resultat3
+def puissance(x, y=2, z=1):
+    return x**y/z
    
 #Affiche la fonction puissance avec les valeurs désiré pour les paramètre:
-#print(puissance(56, 9, 3))
-    
+print(puissance(56, 5, 4))
+print(puissance(56, 5))
+print(puissance(56))
